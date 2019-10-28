@@ -23,6 +23,6 @@ export class HeaderComponent implements OnInit {
 
   updateRocket(updatedName: string) {
     this.rocketName = updatedName;
-    this.editingRocket = false;
+    // this.editingRocket = false;
   }
 }
